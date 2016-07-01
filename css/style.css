@@ -1,7 +1,6 @@
-
-#board {
-  margin: 10px auto;
-  padding: 10px auto;
+h1 {
+  font-size: 3em;
+  left: 50%;
 }
 
 .container {
@@ -9,16 +8,14 @@
   width: 100%;
 }
 
-.container h1 {
-  font-size: 3em;
-  left: 50%;
-}
-
-.box {
+.cell {
   height: 150px;
   border-radius: 5px;
+  background: #7f84bf;
   background: rgba(63, 127, 191, 0.31);
-  background: rgba(63, 127, 191);
+  text-align: center;
+  line-height: 2.5em;
+  font-size: 60px;
 }
 
 .left {
@@ -35,12 +32,6 @@
 
 .bottom {
   border-top: 3px solid black;
-}
-
-.cell {
-  text-align: center;
-  line-height: 2.5em;
-  font-size: 60px;
 }
 
 .info {
@@ -62,6 +53,11 @@
   border-top: 1px solid white;
 }
 
+#board {
+  margin: 10px auto;
+  padding: 10px 0;
+}
+
 #changeMe {
-  font-size: 2em;
+  font-size: 30px;
 }
